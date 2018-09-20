@@ -20,3 +20,7 @@ Purchase the affordable [kit](https://www.vilros.com/shop/raspberry-pi-kits/rasp
 
 
 The purpose of this project is to count how many cars pass by in a frame using a Raspberry pi zero and a pi camera.  
+
+# Code
+
+This group used code from (Azfal Saan)[https://github.com/shaanhk]. Using  his code, we were unsuccessful detecting the cars that were passing by. We were somewhat able to detect objects. 
