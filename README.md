@@ -6,10 +6,15 @@ Senior Design groups in the past have have wasted time successfully connecting R
 # Materials
 
 1). Raspberry Pi Zero
+
 2). Raspberry Pi Camera
+
 3). MicroUSB power source
+
 4). MircoUSB to USB-C
+
 5) SD Card
+
 6). 
 
 The purpose of this project is to count how many cars pass by in a frame using a Raspberry pi zero and a pi camera. 
