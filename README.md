@@ -49,7 +49,7 @@ To record the video using the Raspberry Pi, we first had to connect a camera to 
 
 Anirudh Sriram (CE) - Developed script and install OpenCV on Raspberry Pi, Connected Camera to Pi, Increased Virtual Memory
 
-Ashaki Gumbs (EE)- Installed OS and OpenCV on Raspberry Pi, Connected Camera to pi, Increased Virtual Memory
+Ashaki Gumbs (EE)- Installed OS and OpenCV on Raspberry Pi, Connected Camera to pi, Increased Virtual Memory, Setup SSH on Raspberry Pi
  
 
 ## References
