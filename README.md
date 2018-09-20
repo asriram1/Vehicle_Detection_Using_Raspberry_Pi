@@ -13,8 +13,10 @@ Senior Design groups in the past have have wasted time successfully connecting R
 
 4). [MircoUSB to USB-C](https://www.google.com/aclk?sa=l&ai=DChcSEwi00_mCrcjdAhWXiLMKHbZzCaEYABAFGgJxbg&sig=AOD64_3XFmfzVcgdf3B5r5507Uqw77oytw&ctype=5&q=&ved=0ahUKEwjfnfSCrcjdAhXlct8KHVuPAdcQ9aACCD8&adurl=)
 
-5) SD Card
+OR 
 
-6). [MicroUSB](google.com)
+Purchase the affordable [kit](https://www.vilros.com/shop/raspberry-pi-kits/raspberry-pi-zero-w-basic-starter-kit/) 
+ 
+
 
 The purpose of this project is to count how many cars pass by in a frame using a Raspberry pi zero and a pi camera. 
