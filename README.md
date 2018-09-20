@@ -18,19 +18,29 @@ OR
 Purchase the affordable [kit](https://www.vilros.com/shop/raspberry-pi-kits/raspberry-pi-zero-w-basic-starter-kit/) 
 
 
-#Code 
+# Hardware Component Setup
 
-#Part 1- Download OpenCv on Raspberry Pi. 
+1). Download OpenCv on Raspberry Pi. 
 
 To download OpenCV on Raspberry Pi, we used the help provided in- https://docs.opencv.org/3.4.1/d7/d9f/tutorial_linux_install.html
 
-#Part2 - Recording video using Raspberry Pi
+2). Recording video using Raspberry Pi Camera NoiR
 
 To record the video using the Raspberry Pi, we first had to connect a camera to the pi. After this was connected we had to create a script using Python to record a video for 10 seconds. 
 
+# Software Component Setup
 
+1). Capturing Cars on the video recorded using code provided by Azfal Saan. This file is labeled "countcar.py" on our wiki. 
 
-#Part 3 - Capturing Cars on the video recorded using code provided by Azfal Saan. 
+# Running the Code
+
+1). First, point your Raspberry Pi Camera to traffic, then in terminal type: 
+
+```camera.py``` in your desired directory. 
+
+2). The file should be saved in the appropiate directory. Then type in terminal 
+
+```countcar.py``` The code should then be able to detect the amount of cars in each frame. 
 
 
 Contributions
