@@ -36,11 +36,11 @@ To record the video using the Raspberry Pi, we first had to connect a camera to 
 
 1). Ensure to install numpy using ```pip install numpy``` 
 
-1). First, point your Raspberry Pi Camera to traffic, then in terminal type: 
+2). First, point your Raspberry Pi Camera to traffic, then in terminal type: 
 
 ```camera.py``` in your desired directory. 
 
-2). The file should be saved in the appropiate directory. Then type in terminal 
+3). The file should be saved in the appropiate directory. Then type in terminal 
 
 ```countcar.py``` The code should then be able to detect the amount of cars in each frame. 
 
