@@ -1,7 +1,7 @@
 # SeniorDesignMiniProject
 
 # Motivation
-Senior Design groups in the past have have wasted time successfully connecting Raspbery pi's to the BU encrypted internet (802.1x), installing an operating system, and connecting external hardware to the pi. The purpose of this project was to eliminate this pitfall and have electrical engineers in their senior design groups well versed in this piece of hardware. 
+Senior Design groups in the past have have wasted time successfully connecting Raspbery pi's to the BU encrypted internet (802.1x), installing an operating system, and connecting external hardware to the pi. The purpose of this project was to eliminate this pitfall and have electrical engineers in their senior design groups well versed in this piece of hardware. The purpose of this particular project was to determine the amount of cars passing in each frame. 
 
 # Materials
 
@@ -33,18 +33,12 @@ To record the video using the Raspberry Pi, we first had to connect a camera to 
 #Part 3 - Capturing Cars on the video recorded using code provided by Azfal Saan. 
 
 
-
-
 Contributions
 
-Anirudh Sriram - Developed script and install OpenCV on Raspberry Pi, Connected Camera to Pi, Increased Virtual Memory
+Anirudh Sriram (CE) - Developed script and install OpenCV on Raspberry Pi, Connected Camera to Pi, Increased Virtual Memory
 
-Ashaki Gumbs - Installed OS and OpenCV on Raspberry Pi, Connected Camera to pi, Increased Virtual Memory
-
-The purpose of this project is to count how many cars pass by in a frame using a Raspberry pi zero and a pi camera.  
-
-
-
+Ashaki Gumbs (EE)- Installed OS and OpenCV on Raspberry Pi, Connected Camera to pi, Increased Virtual Memory
+ 
 
 References
 
