@@ -30,9 +30,11 @@ To record the video using the Raspberry Pi, we first had to connect a camera to 
 
 # Software Component Setup
 
-1). Capturing Cars on the video recorded using code provided by Azfal Saan. This file is labeled ```countcar.py``` on our wiki. 
+1). Detecting Cars on the video recorded using code provided by Azfal Saan. This file is labeled ```countcar.py``` on our wiki. 
 
 # Running the Code
+
+1). Ensure to install numpy using ```pip install numpy``` 
 
 1). First, point your Raspberry Pi Camera to traffic, then in terminal type: 
 
