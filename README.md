@@ -30,7 +30,7 @@ To record the video using the Raspberry Pi, we first had to connect a camera to 
 
 # Software Component Setup
 
-1). Capturing Cars on the video recorded using code provided by Azfal Saan. This file is labeled "countcar.py" on our wiki. 
+1). Capturing Cars on the video recorded using code provided by Azfal Saan. This file is labeled ```countcar.py``` on our wiki. 
 
 # Running the Code
 
@@ -43,14 +43,14 @@ To record the video using the Raspberry Pi, we first had to connect a camera to 
 ```countcar.py``` The code should then be able to detect the amount of cars in each frame. 
 
 
-Contributions
+# Contributions
 
 Anirudh Sriram (CE) - Developed script and install OpenCV on Raspberry Pi, Connected Camera to Pi, Increased Virtual Memory
 
 Ashaki Gumbs (EE)- Installed OS and OpenCV on Raspberry Pi, Connected Camera to pi, Increased Virtual Memory
  
 
-References
+## References
 
 
 https://raspi.tv/2013/another-way-to-convert-raspberry-pi-camera-h264-output-to-mp4
