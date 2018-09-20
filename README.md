@@ -5,16 +5,16 @@ Senior Design groups in the past have have wasted time successfully connecting R
 
 # Materials
 
-1). Raspberry Pi Zero
+1). [Raspberry Pi Zero](https://www.google.com/aclk?sa=l&ai=DChcSEwihoYK7rMjdAhUJnLMKHUmkBkQYABABGgJxbg&sig=AOD64_1MRwKVqANLd_4U0Q5fyg3-UyDgEw&ctype=5&q=&ved=0ahUKEwiW3fy6rMjdAhVNm-AKHT5mCawQ9aACCDE&adurl=)
 
-2). Raspberry Pi Camera
+2). [Raspberry Pi Camera](https://www.google.com/aclk?sa=l&ai=DChcSEwjlkYbLrMjdAhXFVg0KHRbuBWUYABAEGgJxYg&sig=AOD64_2SDYdBCgdkinCS4KokfkoZclmBbw&ctype=5&q=&ved=0ahUKEwj51YDLrMjdAhUtneAKHfYsA4IQ9aACCDg&adurl=)
 
-3). MicroUSB power source
+3). [MicroUSB power source](https://www.google.com/aclk?sa=l&ai=DChcSEwiZuPXfrMjdAhVMgbMKHcOZBSwYABAEGgJxbg&sig=AOD64_3-79f1w5ECbjEMgNozrPNbRH6uUg&ctype=5&q=&ved=0ahUKEwiZqu_frMjdAhXrdN8KHTKfBeYQ9aACCD4&adurl=) 
 
-4). MircoUSB to USB-C
+4). [MircoUSB to USB-C](https://www.google.com/aclk?sa=l&ai=DChcSEwi00_mCrcjdAhWXiLMKHbZzCaEYABAFGgJxbg&sig=AOD64_3XFmfzVcgdf3B5r5507Uqw77oytw&ctype=5&q=&ved=0ahUKEwjfnfSCrcjdAhXlct8KHVuPAdcQ9aACCD8&adurl=)
 
 5) SD Card
 
-6). 
+6). [MicroUSB](google.com)
 
 The purpose of this project is to count how many cars pass by in a frame using a Raspberry pi zero and a pi camera. 
