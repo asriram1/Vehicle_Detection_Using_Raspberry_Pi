@@ -3,7 +3,7 @@
 # Motivation
 Senior Design groups in the past have have wasted time successfully connecting Raspbery pi's to the BU encrypted internet (802.1x), installing an operating system, and connecting external hardware to the pi. The purpose of this project was to eliminate this pitfall and have electrical engineers in their senior design groups well versed in this piece of hardware. The purpose of this particular project was to determine the amount of cars passing in each frame. 
 
-# Materials
+## Materials
 
 1). [Raspberry Pi Zero](https://www.google.com/aclk?sa=l&ai=DChcSEwihoYK7rMjdAhUJnLMKHUmkBkQYABABGgJxbg&sig=AOD64_1MRwKVqANLd_4U0Q5fyg3-UyDgEw&ctype=5&q=&ved=0ahUKEwiW3fy6rMjdAhVNm-AKHT5mCawQ9aACCDE&adurl=)
 
@@ -18,21 +18,21 @@ OR
 Purchase the affordable [kit](https://www.vilros.com/shop/raspberry-pi-kits/raspberry-pi-zero-w-basic-starter-kit/) 
 
 
-# Hardware Component Setup
+## Hardware Component Setup
 
 1). Download OpenCv on Raspberry Pi. 
 
-To download OpenCV on Raspberry Pi, we used the help provided in- https://docs.opencv.org/3.4.1/d7/d9f/tutorial_linux_install.html
+To download OpenCV on Raspberry Pi, we used the help provided in - https://docs.opencv.org/3.4.1/d7/d9f/tutorial_linux_install.html
 
 2). Recording video using Raspberry Pi Camera NoiR
 
 To record the video using the Raspberry Pi, we first had to connect a camera to the pi. After this was connected we had to create a script using Python to record a video for 10 seconds. 
 
-# Software Component Setup
+## Software Component Setup
 
 1). Detecting Cars on the video recorded using code provided by Azfal Saan. This file is labeled ```countcar.py``` on our wiki. 
 
-# Running the Code
+## Running the Code
 
 1). Ensure to install numpy using ```pip install numpy``` 
 
@@ -45,7 +45,7 @@ To record the video using the Raspberry Pi, we first had to connect a camera to 
 ```countcar.py``` The code should then be able to detect the amount of cars in each frame. 
 
 
-# Contributions
+## Contributions
 
 Anirudh Sriram (CE) - Developed script and install OpenCV on Raspberry Pi, Connected Camera to Pi, Increased Virtual Memory
 
