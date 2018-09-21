@@ -1,7 +1,7 @@
-# SeniorDesignMiniProject
+# SeniorDesignMiniProject - Vehicle Detection using Raspberry Pi
 
 # Motivation
-Senior Design groups in the past have have wasted time successfully connecting Raspbery pi's to the BU encrypted internet (802.1x), installing an operating system, and connecting external hardware to the pi. The purpose of this project was to eliminate this pitfall and have electrical engineers in their senior design groups well versed in this piece of hardware. The purpose of this particular project was to determine the amount of cars passing in each frame. 
+With the advent of features like auto-pilot in cars as well as recent advancements in self-driving car technology, one of the most crucial steps toward more advanced driverless navigation systems is achieving greater levels of safety. Driverless navigation systems need to be extremely effective at detecting and recognizing their surroundings, including other vehicles. Our project aims to create a fairly basic program which will be used to detect vehicles using a Raspberry Pi. 
 
 ## Materials
 
@@ -20,17 +20,27 @@ Purchase the affordable [kit](https://www.vilros.com/shop/raspberry-pi-kits/rasp
 
 ## Hardware Component Setup
 
-1). Download OpenCv on Raspberry Pi. 
+1). Download OpenCv on Raspberry Pi.  To download OpenCV on Raspberry Pi, we used the help provided in https://docs.opencv.org/3.4.1/d7/d9f/tutorial_linux_install.html
 
-To download OpenCV on Raspberry Pi, we used the help provided in - https://docs.opencv.org/3.4.1/d7/d9f/tutorial_linux_install.html
-
-2). Recording video using Raspberry Pi Camera NoiR
-
-To record the video using the Raspberry Pi, we first had to connect a camera to the pi. After this was connected we had to create a script using Python to record a video for 10 seconds. 
+2). Recording video using Raspberry Pi Camera NoiR. To record the video using the Raspberry Pi, we first had to connect a camera to the pi. After this was connected we had to create a script using Python to record a video for 20 seconds. However one of the issues with the recorded video was that the resolution was too high, which meant processing time was too long. Hence we had to change the resolution of the recorded video to 512 by 512 pixels. This script can be found in camera.py. 
 
 ## Software Component Setup
 
-1). Detecting Cars on the video recorded using code provided by Azfal Saan. This file is labeled ```countcar.py``` on our wiki. 
+1) To create the vehicle detection program we decided to use Python owing to its wide range of libraries which help with this project. We name the file ```countcar.py```. 
+
+2) We first imported openCV into python.
+
+3) We then imported the video that was recorded through the raspberry pi, and converted it into frames. 
+
+4) An xml classifier is used so objects similar to cars are recognized in the frames.
+
+5) The frames that are read are converted first into gray scale, and from these new images, cars of different sizes are detected.
+
+6) A for loop is used to draw rectangles around all the detected vehicles in the frames
+
+7) All the new frames are then displayed, with the rectangles, in a new window
+
+8) Finally a function closes this new window and de-allocates any associated memory usage
 
 ## Running the Code
 
@@ -49,11 +59,18 @@ To record the video using the Raspberry Pi, we first had to connect a camera to 
 
 ## Contributions
 
-Anirudh Sriram (CE) - Developed script and install OpenCV on Raspberry Pi, Connected Camera to Pi, Increased Virtual Memory
+Anirudh Sriram (CE) - Developed vehicle detection script, Installed OpenCV on Raspberry Pi, Connected Camera to Pi, Increased Virtual Memory
 
-Ashaki Gumbs (EE)- Installed OS and OpenCV on Raspberry Pi, Connected Camera to pi, Increased Virtual Memory, Setup SSH on Raspberry Pi
+Ashaki Gumbs (EE)- Installed OS and OpenCV on Raspberry Pi, Developed video recording script, Connected Camera to pi, Increased Virtual Memory, Setup SSH on Raspberry Pi
+
+## Project Obstacles 
+
+One of the issues with using a raspberry pi is the little amount of RAM, which makes processing time too long. Hence to account for this, we restriced the video time to just 20 seconds and set the video to record at a low resolution of 512 by 512 pixels. Another small hindrance was the extremely long build time for OpenCV. The Raspberry pi was left running overnight to let OpenCV install completely. Another small issue with the program is the few false alarms being detected in the newly generated video, which meant the program is not 100% accurate.
+
+## Future Improvements
+
+To develop our project further, we would focus on eliminating all false alarms in our vehicle detection. Furthermore, we would also want to implement code which will help count the number of cars passing through a particular area. 
  
-
 ## References
 
 
