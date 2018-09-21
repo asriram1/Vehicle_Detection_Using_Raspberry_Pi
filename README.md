@@ -5,13 +5,13 @@ With the advent of features like auto-pilot in cars as well as recent advancemen
 
 ## Materials
 
-1). [Raspberry Pi Zero](https://www.google.com/aclk?sa=l&ai=DChcSEwihoYK7rMjdAhUJnLMKHUmkBkQYABABGgJxbg&sig=AOD64_1MRwKVqANLd_4U0Q5fyg3-UyDgEw&ctype=5&q=&ved=0ahUKEwiW3fy6rMjdAhVNm-AKHT5mCawQ9aACCDE&adurl=)
+1) [Raspberry Pi Zero](https://www.google.com/aclk?sa=l&ai=DChcSEwihoYK7rMjdAhUJnLMKHUmkBkQYABABGgJxbg&sig=AOD64_1MRwKVqANLd_4U0Q5fyg3-UyDgEw&ctype=5&q=&ved=0ahUKEwiW3fy6rMjdAhVNm-AKHT5mCawQ9aACCDE&adurl=)
 
-2). [Raspberry Pi Camera](https://www.google.com/aclk?sa=l&ai=DChcSEwjlkYbLrMjdAhXFVg0KHRbuBWUYABAEGgJxYg&sig=AOD64_2SDYdBCgdkinCS4KokfkoZclmBbw&ctype=5&q=&ved=0ahUKEwj51YDLrMjdAhUtneAKHfYsA4IQ9aACCDg&adurl=)
+2) [Raspberry Pi Camera](https://www.google.com/aclk?sa=l&ai=DChcSEwjlkYbLrMjdAhXFVg0KHRbuBWUYABAEGgJxYg&sig=AOD64_2SDYdBCgdkinCS4KokfkoZclmBbw&ctype=5&q=&ved=0ahUKEwj51YDLrMjdAhUtneAKHfYsA4IQ9aACCDg&adurl=)
 
-3). [MicroUSB power source](https://www.google.com/aclk?sa=l&ai=DChcSEwiZuPXfrMjdAhVMgbMKHcOZBSwYABAEGgJxbg&sig=AOD64_3-79f1w5ECbjEMgNozrPNbRH6uUg&ctype=5&q=&ved=0ahUKEwiZqu_frMjdAhXrdN8KHTKfBeYQ9aACCD4&adurl=) 
+3) [MicroUSB power source](https://www.google.com/aclk?sa=l&ai=DChcSEwiZuPXfrMjdAhVMgbMKHcOZBSwYABAEGgJxbg&sig=AOD64_3-79f1w5ECbjEMgNozrPNbRH6uUg&ctype=5&q=&ved=0ahUKEwiZqu_frMjdAhXrdN8KHTKfBeYQ9aACCD4&adurl=) 
 
-4). [MircoUSB to USB-C](https://www.google.com/aclk?sa=l&ai=DChcSEwi00_mCrcjdAhWXiLMKHbZzCaEYABAFGgJxbg&sig=AOD64_3XFmfzVcgdf3B5r5507Uqw77oytw&ctype=5&q=&ved=0ahUKEwjfnfSCrcjdAhXlct8KHVuPAdcQ9aACCD8&adurl=)
+4) [MircoUSB to USB-C](https://www.google.com/aclk?sa=l&ai=DChcSEwi00_mCrcjdAhWXiLMKHbZzCaEYABAFGgJxbg&sig=AOD64_3XFmfzVcgdf3B5r5507Uqw77oytw&ctype=5&q=&ved=0ahUKEwjfnfSCrcjdAhXlct8KHVuPAdcQ9aACCD8&adurl=)
 
 OR 
 
@@ -20,9 +20,9 @@ Purchase the affordable [kit](https://www.vilros.com/shop/raspberry-pi-kits/rasp
 
 ## Hardware Component Setup
 
-1). Download OpenCv on Raspberry Pi.  To download OpenCV on Raspberry Pi, we used the help provided in https://docs.opencv.org/3.4.1/d7/d9f/tutorial_linux_install.html
+1) Download OpenCv on Raspberry Pi.  To download OpenCV on Raspberry Pi, we used the help provided in https://docs.opencv.org/3.4.1/d7/d9f/tutorial_linux_install.html
 
-2). Recording video using Raspberry Pi Camera NoiR. To record the video using the Raspberry Pi, we first had to connect a camera to the pi. After this was connected we had to create a script using Python to record a video for 20 seconds. However one of the issues with the recorded video was that the resolution was too high, which meant processing time was too long. Hence we had to change the resolution of the recorded video to 512 by 512 pixels. This script can be found in camera.py. 
+2) Recording video using Raspberry Pi Camera NoiR. To record the video using the Raspberry Pi, we first had to connect a camera to the pi. After this was connected we had to create a script using Python to record a video for 20 seconds. However one of the issues with the recorded video was that the resolution was too high, which meant processing time was too long. Hence we had to change the resolution of the recorded video to 512 by 512 pixels. This script can be found in camera.py. 
 
 ## Software Component Setup
 
@@ -44,15 +44,15 @@ Purchase the affordable [kit](https://www.vilros.com/shop/raspberry-pi-kits/rasp
 
 ## Running the Code
 
-1). Ensure to install numpy using ```pip install numpy``` 
+1) Ensure to install numpy using ```pip install numpy``` 
 
-2). Download this repository
+2) Download this repository
 
-3). First, point your Raspberry Pi Camera to traffic, then in terminal type: 
+3) First, point your Raspberry Pi Camera to traffic, then in terminal type: 
 
 ```camera.py``` in your desired directory. 
 
-4). The file should be saved in the appropiate directory. Then type in terminal 
+4) The file should be saved in the appropiate directory. Then type in terminal 
 
 ```countcar.py``` The code should then be able to detect the amount of cars in each frame. 
 
