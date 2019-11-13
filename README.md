@@ -1,4 +1,4 @@
-# SeniorDesignMiniProject - Vehicle Detection using Raspberry Pi
+Vehicle Detection using Raspberry Pi
 
 # Motivation
 With the advent of features like auto-pilot in cars as well as recent advancements in self-driving car technology, one of the most crucial steps toward more advanced driverless navigation systems is achieving greater levels of safety. Driverless navigation systems need to be extremely effective at detecting and recognizing their surroundings, including other vehicles. Our project aims to create a fairly basic program which will be used to detect vehicles using a Raspberry Pi. 
